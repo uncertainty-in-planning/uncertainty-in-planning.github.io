@@ -16,5 +16,5 @@ $ pip install torchvision==0.17.2
 ```
 
 ## Instructions
-1. Using conformal prediction to estimate perception uncertainty score ![here](Disentangle_Uncertainty_Conformal_Prediction.ipynb).
-2. Using formal-method-driven conformal prediction to estimate decision uncertainty score ![here](Disentangle_Uncertainty_Conformal_Prediction.ipynb).
+1. Using conformal prediction to estimate perception uncertainty score [here](Disentangle_Uncertainty_Conformal_Prediction.ipynb).
+2. Using formal-method-driven conformal prediction to estimate decision uncertainty score [here](Disentangle_Uncertainty_Conformal_Prediction.ipynb).
