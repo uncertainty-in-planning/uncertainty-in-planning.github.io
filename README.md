@@ -3,7 +3,7 @@
 We present a novel angle to deconstruct the inherent uncertainty of these models into two distinct elements: perception uncertainty associated with the visual processing capabilities of the model and decision uncertainty linked to its ability to generate actionable plans.
 
 
-![pipeline](examples/pipeline.png)
+![pipeline](examples/uncertainty_pipeline.png)
 
 ## Setup
 ```bash
