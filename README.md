@@ -2,8 +2,8 @@
 
 We presented a novel framework for enhancing multimodal foundation models in robotic planning by disentangling, quantifying, and addressing perception and decision uncertainties. By isolating perception uncertainty in visual interpretation and decision uncertainty in plan generation, our approach enables targeted uncertainty management.
 
-![Framework: Active Sensing](active_sensing.png)
-![Framework: Automated_Refinement](automated_refinement.png)
+<img src="active_sensing.png" alt="Framework: Active Sensing" width="800">
+<img src="automated_refinement.png" alt="Framework: Automated Refinement" width="800">
 
 ## Setup
 ```bash
