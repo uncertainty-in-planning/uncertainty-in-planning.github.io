@@ -21,7 +21,7 @@ $ pip install torchvision==0.17.2
 2. Inference on our fine-tuned multimodal foundation model and comparison with benchmark [here](fine-tuned-model-inference.ipynb).
 
 ## Model Checkpoints
-All model checkpoints are available on huggingface [here](https://huggingface.co/anonymous-yyh-1971)
+All model checkpoints are available on huggingface [here](https://huggingface.co/anonymous-yyh-1971).
 
 ## Datasets
 ### Calibration
