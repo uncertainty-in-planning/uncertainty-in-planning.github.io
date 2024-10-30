@@ -16,9 +16,12 @@ $ pip install torch==2.2.2
 $ pip install torchvision==0.17.2
 ```
 
-## Instructions
-1. Disentangle and quantify perception and decision uncertainty [here](uncertainty-quantification.ipynb).
-2. Run the fine-tuned foundation model and compare with the benchmark [here](fine-tuned-model-inference.ipynb).
+## Example Notebooks
+1. Disentangling and quantifying perception and decision uncertainty [here](uncertainty-quantification.ipynb).
+2. Inference on our fine-tuned multimodal foundation model and comparison with benchmark [here](fine-tuned-model-inference.ipynb).
+
+## Model Checkpoints
+All model checkpoints are available on huggingface [here](https://huggingface.co/anonymous-yyh-1971)
 
 ## Datasets
 ### Calibration
@@ -31,3 +34,6 @@ $ pip install torchvision==0.17.2
 
 ### Testing
 [Real-World Driving](https://drive.google.com/drive/folders/1Pg5c4Gp6KF7n0Oy22gaz9gXYh8TPuIBJ?usp=sharing)
+
+### Sample Images for Inference
+[Inference Samples](https://huggingface.co/datasets/anonymous-yyh-1971/hf_dataset/tree/main)
