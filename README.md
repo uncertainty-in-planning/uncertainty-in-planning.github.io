@@ -1,10 +1,9 @@
 # Know Where You’re Uncertain When Planning with Multimodal Foundation Models: A Formal Framework
 
-We presented a novel framework for enhancing multimodal foundation models in robotic planning by disentangling, quantifying, and addressing perception and decision uncertainties. By isolating perception uncertainty in visual interpretation and decision uncertainty in plan generation, our approach enables targeted uncertainty management. 
+We presented a novel framework for enhancing multimodal foundation models in robotic planning by disentangling, quantifying, and addressing perception and decision uncertainties. By isolating perception uncertainty in visual interpretation and decision uncertainty in plan generation, our approach enables targeted uncertainty management.
 
-
-![Framework: Active Sensing](assets/active_sensing.png)
-![Framework: Automated_Refinement](assets/automated_refinement.png)
+<img src="./assets/active_sensing.png"/>
+<img src="./assets/automated_refinement.png"/>
 
 ## Setup
 ```bash
