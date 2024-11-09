@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Know Where You're Uncertain.">
+  <meta name="keywords" content="multimodal, perception, planning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Know Where You're Uncertain</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Know Where You're Uncertain When Planning with Multimodal Foundation Models: A Formal Framework</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://neel1302.github.io/">Neel Bhatt</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://yunhaoyang234.github.io/">Yunhao Yang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/rohan-siva/">Rohan Siva</a><sup>1</sup>,
+            </span>
+            <br>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/milan-daniel/">Daniel Milan</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.ae.utexas.edu/people/faculty/faculty-directory/topcu">Ufuk Topcu</a><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://express.adobe.com/page/CAdrFMJ9QeI2y/">Zhangyang Wang</a><sup>1</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>The University of Texas at Austin</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2411.01639"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/uncertainty-disentanglement"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/uncertainty-disentanglement"
+                    class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="far fa-images"></i>
+                  </span>
+                  <span>Datasets</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a target="_blank" rel="noopener noreferrer" href="https://huggingface.co/anonymous-yyh-1971"
+                    class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Model Checkpoints</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container is-max-desktop" style="max-width: 100em;">
+  <div class="column has-text-centered">
+    <div class="content" style="display: flex; justify-content: center;">
+      <img src="./static/images/task_illustration.png">
+      <!-- <img src = "data/viz_gifs/row3_col3.gif"> -->
+    </div>
+    <p style="max-width: 50em; text-align: center; margin: 0 auto;""> 
+      Our planning framework disentangles perception and decision uncertainty, triggering the active sensing intervention.
+      The framework improves the robustness of generated plans by reducing the propagation of perceptual inaccuracies. Our automated refinement framework generates high-certainty training data and fine-tunes the foundation model
+      to improve its ability to generate plans that comply with task requirements.
+    </p>
+  </div>
+  </div>
+</section>
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Multimodal foundation models offer a promising framework for robotic perception and planning by processing 
+            sensory inputs to generate actionable plans. However, addressing uncertainty in both perception (sensory interpretation) 
+            and decision-making (plan generation) remains a critical challenge for ensuring task reliability. We present a comprehensive 
+            framework to disentangle, quantify, and mitigate these two forms of uncertainty. We first introduce a framework for 
+            uncertainty disentanglement, isolating perception uncertainty arising from limitations in visual understanding and 
+            decision uncertainty relating to the robustness of generated plans.
+          </p>
+
+          <p>
+            To quantify each type of uncertainty, we propose methods tailored to the unique properties of perception and decision-making: 
+            we use conformal prediction to calibrate perception uncertainty and introduce Formal-Methods-Driven Prediction (FMDP) 
+            to quantify decision uncertainty, leveraging formal verification techniques for theoretical guarantees. 
+            Building on this quantification, we implement two targeted intervention mechanisms: an active sensing process that 
+            dynamically re-observes high-uncertainty scenes to enhance visual input quality and an automated refinement procedure 
+            that fine-tunes the model on high-certainty data, improving its capability to meet task specifications. 
+            Empirical validation in real-world and simulated robotic tasks demonstrates that our uncertainty disentanglement framework 
+            reduces variability by up to 40% and enhances task success rates by 5% compared to baselines. These improvements are attributed 
+            to the combined effect of both interventions and highlight the importance of uncertainty disentanglement which facilitates 
+            targeted interventions that enhance the robustness and reliability of autonomous systems. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Concurrent Work. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Framework Overview</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/active_sensing.png">
+          <img src="./static/images/automated_refinement.png">
+
+          <p>Overview of the planning and refinement frameworks. Our planning framework disentangles perception and decision uncertainty, triggering the active sensing intervention.
+            The framework improves the robustness of generated plans by reducing the propagation of perceptual inaccuracies. Our automated refinement framework generates high-certainty training data and fine-tunes the foundation model
+            to improve its ability to generate plans that comply with task requirements.</p>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Concurrent Work. -->
+
+  </div>
+</section>
+
+<section class="hero is-small is-light">
+  <div class="container ">
+    <!-- Model demo. -->
+    <div class=" has-text-centered">
+      <h2 class="title is-3">Interactive Demonstration for Inference</h2>
+        <div class="interactive-demonstration">
+          <p>TODO</p>
+          <!-- TODO -->
+        </div>
+      </div>
+    </div>
+    <!-- Model demo. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Example image from Jupyter notebook -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Comparison of Inferences on Sample Images</h2>
+        <div class="content has-text-justified">
+          <img src="./static/images/example_inference.png">
+
+        </div>
+      </div>
+    </div>
+    <!--/ Example image from Jupyter notebook -->
+
+  </div>
+</section>
+
+<style>
+  .iros{
+    color: red;
+  }
+
+  .videoBox{
+    max-width: 1500px;
+    margin: auto;
+    /* display: flex; */
+  }
+  #videoTitle {
+    text-align: center;  
+    color: #048c3d;
+  }
+
+  .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 2000px;
+}
+.video {
+  width: 1000px;
+  height: auto; 
+  margin: 5px;
+}
+
+</style>
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">References</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            [Mittal 2013] A. Mittal, R. Soundararajan, and A. C. Bovik, “Making a “com-pletely blind” image quality analyzer,” IEEE Signal Processing Letters, vol. 20, no. 3, pp. 209–212, 2013
+          </p>
+        </div>
+      </div>
+    </div>
+    / Concurrent Work.
+  </div>
+</section> -->
+<section class="hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Links</h2>
+
+        <div class="content-box">
+          <p>
+            <a target="_blank" rel="noopener noreferrer" href="https://anonymous.4open.science/r/Disentangle-Uncertainty-F476/uncertainty-quantification.ipynb" target="_blank">Jupyter Notebook for perception and decision uncertainty</a>
+          </p>
+          <p>
+            <a target="_blank" rel="noopener noreferrer" href="https://anonymous.4open.science/r/Disentangle-Uncertainty-F476/fine-tuned-model-inference.ipynb" target="_blank">Jupyter Notebook for inference on our fine-tuned model</a>
+          </p>
+          <p>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/haotian-liu/LLaVA" target="_blank">LLaVA: Open Large Multimodal Models</a>
+          </p>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{bhatt2024knowyoureuncertainplanning,
+            title={Know Where You're Uncertain When Planning with Multimodal Foundation Models: A Formal Framework}, 
+            author={Neel P. Bhatt and Yunhao Yang and Rohan Siva and Daniel Milan and Ufuk Topcu and Zhangyang Wang},
+            year={2024},
+            eprint={2411.01639},
+            archivePrefix={arXiv},
+            primaryClass={cs.RO},
+            url={https://arxiv.org/abs/2411.01639}, 
+      }</code></pre>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <!-- <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a> -->
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            We express our thanks towards the authors of <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> for the template of this website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="static/js/script.js"></script>
+
+<script>
+    new BeforeAfter({
+        id: '#example1'
+    });
+    new BeforeAfter({
+        id: '#example2'
+    });
+    new BeforeAfter({
+        id: '#example4'
+    });
+    new BeforeAfter({
+        id: '#example5'
+    });
+
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
