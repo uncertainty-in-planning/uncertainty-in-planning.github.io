@@ -2,7 +2,7 @@
 
 We presented a novel framework for enhancing multimodal foundation models in robotic planning by disentangling, quantifying, and addressing perception and decision uncertainties. By isolating perception uncertainty in visual interpretation and decision uncertainty in plan generation, our approach enables targeted uncertainty management.
 
-![demos](demos.gif)
+<img src="demos.gif" alt="Video Demos" width="800">
 
 Full video available at: https://drive.google.com/file/d/1n0fD2JajoGLRwpHaHfsR9MBKnRWK4H7r/view?usp=sharing
 
