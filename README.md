@@ -4,7 +4,7 @@ We presented a novel framework for enhancing multimodal foundation models in rob
 
 <img src="demos.gif" alt="Video Demos" width="800">
 
-Full video available at: https://drive.google.com/file/d/1n0fD2JajoGLRwpHaHfsR9MBKnRWK4H7r/view?usp=sharing
+**Full video** available at: [here](https://drive.google.com/file/d/1n0fD2JajoGLRwpHaHfsR9MBKnRWK4H7r/view?usp=sharing).
 
 
 <img src="active_sensing.png" alt="Framework: Active Sensing" width="800">
