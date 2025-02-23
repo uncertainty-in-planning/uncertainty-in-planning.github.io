@@ -47,13 +47,12 @@ All model checkpoints are available on huggingface [here](https://huggingface.co
 
 If you find this work interesting and use it in your research, please consider citing our paper.
 ```
-@misc{bhatt2024knowyoureuncertainplanning,
-      title={Know Where You're Uncertain When Planning with Multimodal Foundation Models: A Formal Framework}, 
-      author={Neel P. Bhatt and Yunhao Yang and Rohan Siva and Daniel Milan and Ufuk Topcu and Zhangyang Wang},
-      year={2024},
-      eprint={2411.01639},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2411.01639}, 
+@inproceedings{bhatt2025knowyoureuncertainplanning,
+            title={Know Where You're Uncertain When Planning with Multimodal Foundation Models: A Formal Framework},
+            author={Neel P. Bhatt and Yunhao Yang and Rohan Siva and Daniel Milan and Ufuk Topcu and Zhangyang Wang},
+            year={2025},
+            booktitle={Proceedings of the Seventh Annual Conference on Machine Learning and Systems},
+            address={Santa Clara, CA, USA},
+            publisher={mlsys.org},
 }
 ```
