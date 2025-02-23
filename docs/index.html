@@ -229,6 +229,45 @@
 </section>
 
 <style>
+  /* Force all cards in the same row to have equal height */
+  
+.link-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Makes all cards the same height */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.link-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.link-card .icon {
+  color: #4A90E2;
+  margin-bottom: 10px;
+}
+
+.button.is-link {
+  background-color: #4A90E2;
+  border: none;
+}
+
+.button.is-link:hover {
+  background-color: #357ABD;
+}
+
+/* Ensure consistent height for content inside cards */
+.card-content {
+  flex-grow: 1;  /* Fills available space evenly */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
   .iros{
     color: red;
   }
@@ -256,6 +295,7 @@
   margin: 5px;
 }
 
+
 </style>
 
 <!-- <section class="section">
@@ -278,24 +318,60 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
+        <h2 class="title is-3 has-text-centered"> Related Links</h2>
 
-        <div class="content-box">
-          <p>
-            <a target="_blank" rel="noopener noreferrer" href="https://anonymous.4open.science/r/Disentangle-Uncertainty-F476/uncertainty-quantification.ipynb" target="_blank">Jupyter Notebook for perception and decision uncertainty</a>
-          </p>
-          <p>
-            <a target="_blank" rel="noopener noreferrer" href="https://anonymous.4open.science/r/Disentangle-Uncertainty-F476/fine-tuned-model-inference.ipynb" target="_blank">Jupyter Notebook for inference on our fine-tuned model</a>
-          </p>
-          <p>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/haotian-liu/LLaVA" target="_blank">LLaVA: Open Large Multimodal Models</a>
-          </p>
-      
+        <div class="columns is-multiline is-centered">
+          <!-- Card 1 -->
+          <div class="column is-4">
+            <div class="card link-card">
+              <div class="card-content has-text-centered">
+                <span class="icon is-large">
+                  <i class="fas fa-book-open fa-2x"></i>
+                </span>
+                <h3 class="title is-5">Perception & Decision Uncertainty</h3>
+                <a target="_blank" rel="noopener noreferrer"
+                  href="https://anonymous.4open.science/r/Disentangle-Uncertainty-F476/uncertainty-quantification.ipynb"
+                  class="button is-link is-rounded">View Notebook</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="column is-4">
+            <div class="card link-card">
+              <div class="card-content has-text-centered">
+                <span class="icon is-large">
+                  <i class="fas fa-microscope fa-2x"></i>
+                </span>
+                <h3 class="title is-5">Inference on Fine-tuned Model</h3>
+                <a target="_blank" rel="noopener noreferrer"
+                  href="https://anonymous.4open.science/r/Disentangle-Uncertainty-F476/fine-tuned-model-inference.ipynb"
+                  class="button is-link is-rounded">View Notebook</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="column is-4">
+            <div class="card link-card">
+              <div class="card-content has-text-centered">
+                <span class="icon is-large">
+                  <i class="fas fa-robot fa-2x"></i>
+                </span>
+                <h3 class="title is-5">LLaVA: Multimodal Models</h3>
+                <a target="_blank" rel="noopener noreferrer"
+                  href="https://github.com/haotian-liu/LLaVA"
+                  class="button is-link is-rounded">Explore Repository</a>
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
   </div>
 </section>
+
 
 
 <section class="section" id="BibTeX">
