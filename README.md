@@ -1,8 +1,31 @@
 # Know Where You’re Uncertain When Planning with Multimodal Foundation Models: A Formal Framework
 
-The website of our paper "Know Where You’re Uncertain When Planning with Multimodal Foundation Models: A Formal Framework".
+<p align="center">
+    <a href="https://neel1302.github.io/">Neel P. Bhatt *</a>
+    ·
+    <a href="https://yunhaoyang.github.io/">Yunhao Yang *</a>
+    ·
+    <a href="https://github.com/Rohan-Siva">Rohan Siva</a>
+    <br>
+    .
+    <a href="https://github.com/milan5000">Daniel Milan</a>
+    .
+    <a href="https://oden.utexas.edu/people/directory/ufuk--topcu/">Ufuk Topcu</a>
+    .
+    <a href="https://vita-group.github.io/group.html">Atlas Wang</a>
+    <br>
+    <em>*Equal contribution and co-first authors</em>
+    <br>
+    <br>
+    <a href="https://uncertainty-in-planning.github.io/">Project Page</a> | <a href="https://arxiv.org/pdf/2411.01639">Paper</a> | <a href="https://arxiv.org/abs/2411.01639">Arxiv</a>
+</p>
 
-[[Project Page]](https://uncertainty-in-planning.github.io/) | [[Paper]](https://arxiv.org/pdf/2411.01639) | [[Arxiv]](https://arxiv.org/abs/2411.01639)
+
+## Demo Videos
+
+<img src="demos.gif" alt="Video Demos" width="1200">
+
+**Full video** available at: [here](https://drive.google.com/file/d/1n0fD2JajoGLRwpHaHfsR9MBKnRWK4H7r/view?usp=sharing).
 
 ## Framework
 
