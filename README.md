@@ -1,13 +1,12 @@
 # Know Where You’re Uncertain When Planning with Multimodal Foundation Models: A Formal Framework
 
 <p align="center">
-    <a href="https://neel1302.github.io/">Neel P. Bhatt *</a>
+    <a href="https://neel1302.github.io/">Neel P. Bhatt*</a>
     ·
-    <a href="https://yunhaoyang.github.io/">Yunhao Yang *</a>
+    <a href="https://yunhaoyang234.github.io/">Yunhao Yang*</a>
     ·
     <a href="https://github.com/Rohan-Siva">Rohan Siva</a>
     <br>
-    .
     <a href="https://github.com/milan5000">Daniel Milan</a>
     .
     <a href="https://oden.utexas.edu/people/directory/ufuk--topcu/">Ufuk Topcu</a>
@@ -17,7 +16,7 @@
     <em>*Equal contribution and co-first authors</em>
     <br>
     <br>
-    <a href="https://uncertainty-in-planning.github.io/">Project Page</a> | <a href="https://arxiv.org/pdf/2411.01639">Paper</a> | <a href="https://arxiv.org/abs/2411.01639">Arxiv</a>
+    <a href="https://uncertainty-in-planning.github.io/">Project Page</a> | <a href="https://arxiv.org/abs/2411.01639">Arxiv</a> | <a href="https://mlsys.org/virtual/2025/poster/3273">Paper</a>
 </p>
 
 
