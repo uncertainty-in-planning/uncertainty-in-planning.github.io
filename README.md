@@ -13,14 +13,14 @@
     .
     <a href="https://vita-group.github.io/group.html">Atlas Wang</a>
     <br>
-    <em>*Equal contribution and co-first authors</em>
+    <em>*Equal contribution</em>
     <br>
     <br>
     <a href="https://uncertainty-in-planning.github.io/">Project Page</a> | <a href="https://arxiv.org/abs/2411.01639">Arxiv</a> | <a href="https://mlsys.org/virtual/2025/poster/3273">Paper</a>
 </p>
 
 
-## Demo Videos
+## Demo Videos (CARLA Sim | Ground Robot | Table-top Manipulation)
 
 <img src="demos.gif" alt="Video Demos" width="1200">
 
