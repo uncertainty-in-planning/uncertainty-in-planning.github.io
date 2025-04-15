@@ -2,7 +2,7 @@
 
 The website of our paper "Know Where You’re Uncertain When Planning with Multimodal Foundation Models: A Formal Framework".
 
-[[Project Page]](https://tinyurl.com/uncertainty-disentanglement) | [[Paper]](https://arxiv.org/pdf/2411.01639) | [[Arxiv]](https://arxiv.org/abs/2411.01639)
+[[Project Page]](https://uncertainty-in-planning.github.io/) | [[Paper]](https://arxiv.org/pdf/2411.01639) | [[Arxiv]](https://arxiv.org/abs/2411.01639)
 
 ## Framework
 
@@ -26,7 +26,7 @@ $ pip install torchvision==0.17.2
 2. Inference on our fine-tuned multimodal foundation model and comparison with benchmark [here](fine-tuned-model-inference.ipynb).
 
 ## Model Checkpoints
-All model checkpoints are available on huggingface [here](https://huggingface.co/anonymous-yyh-1971).
+All model checkpoints are available on huggingface [here](https://huggingface.co/uncertainty-in-planning).
 
 ## Datasets
 ### Calibration
@@ -41,7 +41,7 @@ All model checkpoints are available on huggingface [here](https://huggingface.co
 [Real-World Driving](https://drive.google.com/drive/folders/1Pg5c4Gp6KF7n0Oy22gaz9gXYh8TPuIBJ?usp=sharing)
 
 ### Sample Images for Inference
-[Inference Samples](https://huggingface.co/datasets/anonymous-yyh-1971/hf_dataset/tree/main)
+[Inference Samples](https://huggingface.co/datasets/uncertainty-in-planning/hf_dataset)
 
 ## Citation
 
