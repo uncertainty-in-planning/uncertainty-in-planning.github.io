@@ -15,8 +15,7 @@
     <br>
     <em>*Equal contribution</em>
     <br>
-    <br>
-    <a href="https://uncertainty-in-planning.github.io/">Project Page</a> | <a href="https://arxiv.org/abs/2411.01639">Arxiv</a> | <a href="https://mlsys.org/virtual/2025/poster/3273">Paper</a>
+    <h3 align="center"><a href="https://uncertainty-in-planning.github.io/">Project Page</a> | <a href="https://arxiv.org/abs/2411.01639">Arxiv</a> | <a href="https://mlsys.org/virtual/2025/poster/3273">Paper</a></h3>
 </p>
 
 
