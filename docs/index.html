@@ -114,7 +114,7 @@
                   </a>
               </span>
               <span class="link-block">
-                <a target="_blank" rel="noopener noreferrer" href="https://huggingface.co/anonymous-yyh-1971"
+                <a target="_blank" rel="noopener noreferrer" href="https://huggingface.co/uncertainty-in-planning"
                     class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fas fa-file-pdf"></i>
@@ -130,21 +130,35 @@
     </div>
   </div>
 </section>
+<!-- Replace the existing video section with this code -->
 <section class="section">
   <div class="container is-max-desktop" style="max-width: 100em;">
-  <div class="column has-text-centered">
-    <div class="content" style="display: flex; justify-content: center;">
-      <video controls autoplay muted width="800">
-        <source src="./static/videos/Demo_Videos.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="column has-text-centered">
+      <div class="content" style="display: flex; flex-direction: column; align-items: center;">
+        <!-- Video 1 -->
+        <video controls autoplay muted width="800" style="margin-bottom: 20px;">
+          <source src="./static/videos/Video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        
+        <!-- Video 2 -->
+        <video controls autoplay muted width="800" style="margin-bottom: 20px;">
+          <source src="./static/videos/Video2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        
+        <!-- Video 3 -->
+        <video controls autoplay muted width="800" style="margin-bottom: 20px;">
+          <source src="./static/videos/Video3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p style="max-width: 50em; text-align: center; margin: 0 auto;"> 
+        Our planning framework disentangles perception and decision uncertainty, triggering the active sensing intervention.
+        The framework improves the robustness of generated plans by reducing the propagation of perceptual inaccuracies. Our automated refinement framework generates high-certainty training data and fine-tunes the foundation model
+        to improve its ability to generate plans that comply with task requirements.
+      </p>
     </div>
-    <p style="max-width: 50em; text-align: center; margin: 0 auto;"> 
-      Our planning framework disentangles perception and decision uncertainty, triggering the active sensing intervention.
-  The framework improves the robustness of generated plans by reducing the propagation of perceptual inaccuracies. Our automated refinement framework generates high-certainty training data and fine-tunes the foundation model
-  to improve its ability to generate plans that comply with task requirements.
-    </p>
-  </div>
   </div>
 </section>
 
@@ -299,11 +313,27 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered"> Related Links</h2>
+        <h2 class="title is-3 has-text-centered">Related Links</h2>
 
         <div class="columns is-multiline is-centered">
+          
+          <!-- First row: 2 cards -->
+          <div class="column is-6">
+            <div class="card link-card">
+              <div class="card-content has-text-centered">
+                <span class="icon is-large">
+                  <i class="fas fa-play-circle fa-2x"></i>
+                </span>
+                <h3 class="title is-5">Interactive Demo</h3>
+                <a target="_blank" rel="noopener noreferrer"
+                  href="https://tinyurl.com/Uncertainty-Demo"
+                  class="button is-link is-rounded">Try Demo</a>
+              </div>
+            </div>
+          </div>
+          
           <!-- Card 1 -->
-          <div class="column is-4">
+          <div class="column is-6">
             <div class="card link-card">
               <div class="card-content has-text-centered">
                 <span class="icon is-large">
@@ -317,8 +347,9 @@
             </div>
           </div>
 
+          <!-- Second row: 2 cards -->
           <!-- Card 2 -->
-          <div class="column is-4">
+          <div class="column is-6">
             <div class="card link-card">
               <div class="card-content has-text-centered">
                 <span class="icon is-large">
@@ -333,7 +364,7 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="column is-4">
+          <div class="column is-6">
             <div class="card link-card">
               <div class="card-content has-text-centered">
                 <span class="icon is-large">
@@ -358,7 +389,8 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{bhatt2025knowyoureuncertainplanning,
+    <div style="position: relative;">
+      <pre><code><span style="color: red;">@inproceedings</span>{<span style="color: purple;">bhatt2025knowyoureuncertainplanning</span>,
             title={Know Where You're Uncertain When Planning with Multimodal Foundation Models: A Formal Framework},
             author={Neel P. Bhatt and Yunhao Yang and Rohan Siva and Daniel Milan and Ufuk Topcu and Zhangyang Wang},
             year={2025},
@@ -366,8 +398,47 @@
             address={Santa Clara, CA, USA},
             publisher={mlsys.org},
       }</code></pre>
+      <button id="copyBibtex" class="button is-small" 
+              style="position: absolute; top: 10px; right: 10px; opacity: 0.7; background-color: rgba(255, 255, 255, 0.7);" 
+              onmouseover="this.style.opacity='1'"
+              onmouseout="this.style.opacity='0.7'"
+              onclick="copyBibtexToClipboard()">
+        <span class="icon">
+          <i class="fas fa-copy"></i>
+        </span>
+        <span>Copy</span>
+      </button>
+    </div>
   </div>
 </section>
+
+<!-- Add this script for the copy functionality -->
+<script>
+function copyBibtexToClipboard() {
+  const bibtexText = `@inproceedings{bhatt2025knowyoureuncertainplanning,
+            title={Know Where You're Uncertain When Planning with Multimodal Foundation Models: A Formal Framework},
+            author={Neel P. Bhatt and Yunhao Yang and Rohan Siva and Daniel Milan and Ufuk Topcu and Zhangyang Wang},
+            year={2025},
+            booktitle={Proceedings of the Seventh Annual Conference on Machine Learning and Systems},
+            address={Santa Clara, CA, USA},
+            publisher={mlsys.org},
+      }`;
+  
+  navigator.clipboard.writeText(bibtexText).then(function() {
+    const button = document.getElementById('copyBibtex');
+    const originalHTML = button.innerHTML;
+    const originalStyle = button.getAttribute('style');
+    
+    button.innerHTML = '<span class="icon"><i class="fas fa-check"></i></span><span>Copied!</span>';
+    button.style = "position: absolute; top: 10px; right: 10px; opacity: 1; background-color: #48c774;";
+    
+    setTimeout(function() {
+      button.innerHTML = originalHTML;
+      button.setAttribute('style', originalStyle);
+    }, 2000);
+  });
+}
+</script>
 
 
 
