@@ -19,6 +19,9 @@
 </p>
 
 
+## 🎯 TL;DR
+A new framework for disentangling, quantifying, and handling uncertainty in multimodal foundation models, reducing variability in model responses by **40%** and enhancing success rate/reliability in robot perception and planning!
+
 ## Demo Videos (CARLA Sim | Ground Robot | Table-top Manipulation)
 
 <img src="demos.gif" alt="Video Demos" width="1200">
@@ -27,10 +30,13 @@
 
 ## Framework
 
+Current models struggle with unpredictable environments, as they can’t accurately separate perception and decision uncertainties. This limits their effectiveness in real-world robotics and autonomous driving.
+
+We present a novel framework for enhancing multimodal foundation models in robotic planning by disentangling, quantifying, and addressing perception and decision uncertainties. By isolating perception uncertainty in visual interpretation and decision uncertainty in plan generation, our approach enables targeted uncertainty management.
+
 <img src="docs/static/images/active_sensing.png" alt="Framework: Active Sensing" width="800">
 <img src="docs/static/images/automated_refinement.png" alt="Framework: Automated Refinement" width="800">
 
-We presented a novel framework for enhancing multimodal foundation models in robotic planning by disentangling, quantifying, and addressing perception and decision uncertainties. By isolating perception uncertainty in visual interpretation and decision uncertainty in plan generation, our approach enables targeted uncertainty management.
 
 ## Setup
 ```bash
